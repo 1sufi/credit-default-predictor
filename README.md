@@ -21,19 +21,19 @@ Machine learning or statistical model designed to predict the likelihood that a 
   -Serving Model via Flask API
 
 ```
-🏗️ **Project Structure**
-├── **app.py**                # Flask web app
-├── **model.pkl**             # Trained ML model
-├── **scaler.pkl**            # Standard scaler
-├── **templates/**
+🏗️ Project Structure
+├── app.py                # Flask web app
+├── model.pkl             # Trained ML model
+├── scaler.pkl            # Standard scaler
+├── templates/
 │   ├── index.html        # Input form UI
 │   └── result.html       # Output page
-├── **static/**
+├── static/
 │   └── style.css         # Styling
-├── **notebook/**
+├── notebook/
 │   └── model_training.ipynb  # ML model training code
-├── **requirements.txt**      # Dependencies
-└── **README.md**             # Project documentation
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
 ```
 # 1. First the raw data is taken from website 
 https://www.kaggle.com/
