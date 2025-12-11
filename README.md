@@ -20,8 +20,9 @@ Machine learning or statistical model designed to predict the likelihood that a 
   -Saving Model using Pickle
   -Serving Model via Flask API
 
+```
 🏗️ **Project Structure**
-**├──** **app.py**                # Flask web app
+├── **app.py**                # Flask web app
 ├── **model.pkl**             # Trained ML model
 ├── **scaler.pkl**            # Standard scaler
 ├── **templates/**
@@ -33,7 +34,7 @@ Machine learning or statistical model designed to predict the likelihood that a 
 │   └── model_training.ipynb  # ML model training code
 ├── **requirements.txt**      # Dependencies
 └── **README.md**             # Project documentation
-
+```
 # 1. First the raw data is taken from website 
 https://www.kaggle.com/
 Data Preprocessing sanity test is performed which gives us information of the data like is there any null values . data type , dupliacted values if any . 
