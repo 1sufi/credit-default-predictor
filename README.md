@@ -21,7 +21,7 @@ Machine learning or statistical model designed to predict the likelihood that a 
   -Serving Model via Flask API
 
 🏗️ **Project Structure**
-├── **app.py**                # Flask web app
+**├──** **app.py**                # Flask web app
 ├── **model.pkl**             # Trained ML model
 ├── **scaler.pkl**            # Standard scaler
 ├── **templates/**
