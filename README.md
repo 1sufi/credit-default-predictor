@@ -1,8 +1,38 @@
 # credit-default-predictor
-A project on machine learning . where credit card default of user is predicted
+A Machine Learning–powered web application that predicts whether a customer is likely to default on their credit card payment.
+This project uses Python (ML Model) and a Flask Web Framework to provide an end-to-end predictive solution.
 
 # A credit card default prediction model :
-machine learning or statistical model designed to predict the likelihood that a credit card holder will default on their payments. Default occurs when a cardholder is unable to make the required minimum payment on their credit card debt.
+Machine learning or statistical model designed to predict the likelihood that a credit card holder will default on their payments. Default occurs when a cardholder is unable to make the required minimum payment on their credit card debt.
+
+# Machine Learning Workflow
+ the ML pipeline includes:
+  -Data Loading
+  -Exploratory Data Analysis (EDA)
+  -Data Cleaning & Preprocessing
+  -Handling missing values
+  -Encoding categorical variables
+  -Feature scaling
+  -Model Building
+  -Logistic Regression
+  -Random Forest
+  -Model Evaluation
+  -Saving Model using Pickle
+  -Serving Model via Flask API
+
+🏗️ **Project Structure**
+├── app.py                # Flask web app
+├── model.pkl             # Trained ML model
+├── scaler.pkl            # Standard scaler
+├── templates/
+│   ├── index.html        # Input form UI
+│   └── result.html       # Output page
+├── static/
+│   └── style.css         # Styling
+├── notebook/
+│   └── model_training.ipynb  # ML model training code
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
 
 # 1. First the raw data is taken from website 
 https://www.kaggle.com/
@@ -66,6 +96,29 @@ Hyperparameter tuning is the process of optimizing the hyperparameters of a mach
 
 # 9. Final model comparission --> 
 Final model comparison is the last step in the machine learning pipeline where different trained models are evaluated against each other to determine which one performs best for a specific task or dataset. This comparison is crucial for selecting the most effective model before deployment or further analysis. Here’s how to conduct a final model comparison effectively 
+
+# **Installation & Setup
+🔧 1. Clone the Repository
+git clone https://github.com/your-username/credit-card-default-prediction.git
+cd credit-card-default-prediction
+
+📦 2. Install Dependencies
+pip install -r requirements.txt
+
+▶️ 3. Run the Flask App
+python app.py
+
+Now visit:
+👉 http://127.0.0.1:5000/
+
+# **Technology used:**
+    -Python
+    -Flask
+    -NumPy, Pandas
+    -Scikit-learn
+    -Matplotlib / Seaborn
+    -Pickle
+    -HTML, CSS
 
 # 10. Conclusion :
 which model gives the best results and accuracy 
